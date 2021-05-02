@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="linkedlist.LinkedListTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-05-02T11:32:27" hostname="MRUNAL" time="0.028">
+  <properties/>
+  <testcase name="given3number_WhenlinkedListAdded_ShouldPassTop()" classname="linkedlist.LinkedListTest" time="0.028"/>
+  <system-out><![CDATA[Statement are:
+Nodes:70->30->56
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
