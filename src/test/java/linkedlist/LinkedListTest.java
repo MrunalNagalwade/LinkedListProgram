@@ -112,5 +112,22 @@ public class LinkedListTest {
                 linkedList.tail.equals(fourthNode);
         Assertions.assertTrue(result);
     }
+    @Test
+    public void given3number_WhenDeleteElement_ShouldPass()
+    {
+        Node<Integer> firstNode = new Node<>(56);
+        Node<Integer> secondNode = new Node<>(30);
+        Node<Integer> thirdNode = new Node<>(70);
+        Node<Integer> fourthNode = new Node<>(40);
+        LinkedList linkedList = new LinkedList();
+        linkedList.append(firstNode);
+        linkedList.append(secondNode);
+        linkedList.append(thirdNode);
+        linkedList.searchDelete(40);
+        linkedList.printMyNodes();
+        boolean result = linkedList.head.getNext().equals(secondNode) &&
+                secondNode.getNext().equals(thirdNode);
+        Assertions.assertTrue(result);
+    }
 
 }

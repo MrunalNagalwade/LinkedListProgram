@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="linkedlist.LinkedListTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-05-02T14:06:17" hostname="MRUNAL" time="0.031">
+<testsuite name="linkedlist.LinkedListTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-05-02T14:22:12" hostname="MRUNAL" time="0.032">
   <properties/>
-  <testcase name="given3number_WhenInsertNewElement_ShouldPass()" classname="linkedlist.LinkedListTest" time="0.031"/>
-  <system-out><![CDATA[Nodes:56->30->40->70
+  <testcase name="given3number_WhenDeleteElement_ShouldPass()" classname="linkedlist.LinkedListTest" time="0.032"/>
+  <system-out><![CDATA[Nodes:56->30->70
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

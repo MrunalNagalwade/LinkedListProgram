@@ -87,6 +87,16 @@ public class LinkedList {
         previous.setNext(newNode);
         return head;
     }
+    public void searchDelete(int node) {
+        INode tempNode = head;
+        while (tempNode.getNext() != null){
+            if(tempNode.getNext().getKey().equals(node)){
+                INode temp = tempNode.getNext().getNext();
+                tempNode.setNext(temp);
+            }
+            tempNode = tempNode.getNext();
+        }
+    }
     public void printMyNodes()
     {
         StringBuffer nodes = new StringBuffer("Nodes:");
