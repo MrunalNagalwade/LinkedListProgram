@@ -60,6 +60,19 @@ public class LinkedList {
         tempNode = tempNode.getNext();
         return tempNode;
     }
+    public INode search(INode searchKey)
+    {
+        INode tempNode = this.head;
+        while (tempNode != null)
+        {
+            if (tempNode == searchKey)
+            {
+                return tempNode;
+            }
+            tempNode = tempNode.getNext();
+        }
+        return null;
+    }
     public void printMyNodes()
     {
         StringBuffer nodes = new StringBuffer("Nodes:");
