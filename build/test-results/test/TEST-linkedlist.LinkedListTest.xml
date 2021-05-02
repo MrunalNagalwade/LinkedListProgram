@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="linkedlist.LinkedListTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-05-02T12:01:21" hostname="MRUNAL" time="0.029">
+<testsuite name="linkedlist.LinkedListTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-05-02T12:36:41" hostname="MRUNAL" time="0.028">
   <properties/>
-  <testcase name="given3number_WhenlinkedListAdded_ShouldAddedLast()" classname="linkedlist.LinkedListTest" time="0.029"/>
+  <testcase name="given3number_WhenInsertBetween_ShouldLinkedList()" classname="linkedlist.LinkedListTest" time="0.028"/>
   <system-out><![CDATA[Nodes:56->30->70
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
