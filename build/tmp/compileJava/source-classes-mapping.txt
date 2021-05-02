@@ -1,6 +1,6 @@
-linkedlist/LinkedList.java
- linkedlist.LinkedList
-linkedlist/Node.java
- linkedlist.Node
 linkedlist/INode.java
  linkedlist.INode
+linkedlist/Node.java
+ linkedlist.Node
+linkedlist/LinkedList.java
+ linkedlist.LinkedList

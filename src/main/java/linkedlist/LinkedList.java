@@ -24,10 +24,25 @@ public class LinkedList {
             this.head.setNext(tempNode);
         }
     }
+    public void append(INode node)
+    {
+        if( this.tail == null)
+        {
+            this.tail = node;
+        }
+        if ( this.head == null)
+        {
+            this.head = node;
+        }
+        else {
+            this.tail.setNext(node);
+            this.tail = node;
+        }
+    }
     public void printMyNodes()
     {
         StringBuffer nodes = new StringBuffer("Nodes:");
-        System.out.println("Statement are:");
+        //System.out.println("Statement are:");
         INode tempNode = head;
         while (tempNode.getNext() != null)
         {
